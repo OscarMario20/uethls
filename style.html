@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Unidad Educativa Técnica Humanística Lotte Salzgeber"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="LOGO LOTTE.jpeg"  alt="Logo Lotte Salzgeber" class="logo">
+            <h1>Unidad Educativa Técnica Humanística Lotte Salzgeber</h1>
+            <nav>
+                <ul>
+                    <li><a href="#institucion">La Institución</a></li>
+                    <li><a href="#oferta">Oferta Académica</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#inscripcion">Inscríbete</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>¡Forma parte de una educación de excelencia!</h2>
+            <p>Desarrolla tus habilidades técnicas y humanísticas en un ambiente moderno y seguro.</p>
+            <a href="#inscripcion" class="btn">Inscríbete Ahora</a>
+        </div>
+    </section>
+    <section id="institucion">
+        <div class="container">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos una institución educativa comprometida con la formación integral de nuestros estudiantes, combinando excelencia académica, valores y tecnología.</p>
+        </div>
+    </section>
+    <section id="oferta">
+        <div class="container">
+            <h2>OFERTA ACADÉMICA</h2>
+            <ul>
+                <li>Bachillerato Técnico Humanístico</li>
+                <li>Laboratorios de informática y ciencias</li>
+                <li>Actividades deportivas y culturales</li>
+                <li>Prácticas profesionales</li>
+            </ul>
+        </div>
+    </section>
+    <section id="servicios">
+        <div class="container">
+            <h2>SERVICIOS PARA LOS ALUMNOS </h2>
+            <ul>
+                <li>Biblioteca</li>
+                <li>Orientación psicológica</li>
+            </ul>
+        </div>
+    </section>
+    <section id="inscripcion">
+        <div class="container">
+            <h2>PROCESO DE INSCRIPCIÓN</h2>
+            <p>¡Inscribirse es fácil! Completa el formulario en línea o visítanos en nuestras oficinas.</p>
+            <a href="#contacto" class="btn">Solicita Información</a>
+        </div>
+    </section>
+
+     <!-- CONTACTO -->
+  <section id="contacto" class="py-16 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Contacto</h3>
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div data-aos="fade-right">
+        <p class="mb-4"><i class="ri-mail-line text-red-900"></i> <strong>Email:</strong> info@lottesalzgeber.edu.bo</p>
+        <p class="mb-4"><i class="ri-phone-line text-red-900"></i> <strong>Teléfono:</strong>  (591) 123-45678</p>
+        <p class="mb-4"><i class="ri-map-pin-line text-red-900"></i> <strong>Dirección:</strong> Final Calle La Paz / San Ignacio De Velasco / Santa Cruz / Bolivia </p>
+        <div class="flex space-x-4 mt-6">
+          <a href="#" class="text-2xl hover:text-blue-500"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#" class="text-2xl hover:text-green-500"><i class="ri-whatsapp-fill"></i></a>
+          <a href="#" class="text-2xl hover:text-red-500"><i class="ri-youtube-fill"></i></a>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/tu-endpoint" method="POST" class="bg-white shadow-lg rounded-xl p-6 space-y-4" data-aos="fade-left">
+        <input type="text" name="nombre" placeholder="Nombre" required class="w-full border p-3 rounded-lg">
+        <input type="email" name="email" placeholder="Correo" required class="w-full border p-3 rounded-lg">
+        <textarea name="mensaje" placeholder="Mensaje" required class="w-full border p-3 rounded-lg h-32"></textarea>
+        <button class="w-full bg-red-900 text-white py-3 rounded-lg font-semibold hover:bg-red-800 transition">Enviar</button>
+      </form>
+    </div>
+  </section>     
+</body>
+</html>
